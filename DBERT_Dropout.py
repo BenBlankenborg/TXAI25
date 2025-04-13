@@ -205,7 +205,7 @@ def calibration_plot(predictions_list, ground_truths, num_bins=10):
     plt.title("Calibration Plot")
     plt.legend()
     plt.grid(True)
-    file_name = f"CalibrationPlotMCD1.png"
+    file_name = f"CalibrationPlotBERT.png"
     plt.savefig(file_name)
     plt.close()
 
